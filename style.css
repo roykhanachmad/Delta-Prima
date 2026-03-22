@@ -330,8 +330,6 @@ button { font-family: var(--f-sans); cursor: pointer; }
 }
 .nav-logo-mark {
   width: 46px; height: 46px;
-  background: var(--c-navy);
-  border-radius: var(--r-sm);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -571,7 +569,7 @@ button { font-family: var(--f-sans); cursor: pointer; }
   z-index: 2;
   box-shadow: 0 24px 64px rgba(0,20,60,.18);
   background:
-    url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1000&q=90')
+    url('Ruang\ bimbel\ 1.jpg')
     center 35% / cover no-repeat;
   animation: blobIn .9s .2s cubic-bezier(.4,0,.2,1) both;
 }
@@ -1595,9 +1593,6 @@ button { font-family: var(--f-sans); cursor: pointer; }
 }
 .footer-brand .logo-mark {
   width: 48px; height: 48px;
-  background: rgba(255,255,255,.1);
-  border: 2px solid var(--c-yellow);
-  border-radius: var(--r-sm);
   display: flex;
   align-items: center;
   justify-content: center;
