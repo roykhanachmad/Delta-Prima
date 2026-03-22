@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bimbingan Belajar Delta Prima — les matematika private & semi-private di Surabaya. SD, SMP, SMA, Olimpiade, UTBK, TKA, Mahasiswa." />
+  <title>Delta Prima | Bimbingan Belajar Matematika Surabaya</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome 6 Free — ikon asli Instagram, WhatsApp, Email, dll -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════
+       TOP UTILITY BAR
+  ══════════════════════════════════════════ -->
+  <div id="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <a href="https://wa.me/6287744736425" target="_blank"><i class="fa-brands fa-whatsapp"></i> +62 877-4473-6425</a>
+        <span class="topbar-sep">|</span>
+        <a href="mailto:deltaprima2357@gmail.com"><i class="fa-regular fa-envelope"></i> deltaprima2357@gmail.com</a>
+        <span class="topbar-sep">|</span>
+        <span><i class="fa-solid fa-location-dot"></i> Rungkut, Surabaya</span>
+      </div>
+      <div class="topbar-right">
+        <a href="https://www.instagram.com/bimbel.deltaprima" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <span class="topbar-sep">|</span>
+        <a href="https://wa.me/6287744736425" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       NAVBAR WRAPPER (floating → sticky)
+  ══════════════════════════════════════════ -->
+  <div id="navbar-wrapper">
+    <nav id="navbar">
+      <div class="nav-wrap">
+
+        <!-- Logo -->
+        <a href="#home" class="nav-logo" data-page="home">
+          <div class="nav-logo-mark">Δ</div>
+          <div class="nav-logo-text">
+            <span class="nav-logo-name">Delta Prima</span>
+            <span class="nav-logo-tagline">Bimbingan Belajar Matematika</span>
+          </div>
+        </a>
+
+        <!-- Primary Nav — simple links, no mega menu -->
+        <ul class="nav-primary">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active" data-page="home">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a href="#layanan" class="nav-link" data-page="layanan">Layanan</a>
+          </li>
+          <li class="nav-item">
+            <a href="#team" class="nav-link" data-page="team">Tim Pengajar</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faq" class="nav-link" data-page="faq">FAQ</a>
+          </li>
+        </ul>
+
+        <!-- Right: search icon (UNSW style) + CTA -->
+        <div class="nav-right">
+          <a href="https://wa.me/6287744736425" target="_blank" class="btn btn-yellow no-arrow" style="font-size:.82rem;padding:10px 18px;">
+            Daftar Sekarang ›
+          </a>
+          <button class="nav-search-btn" aria-label="Cari" title="Cari">🔍</button>
+        </div>
+
+        <!-- Hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+
+      </div><!-- /nav-wrap -->
+    </nav>
+  </div><!-- /navbar-wrapper -->
+
+  <!-- MOBILE NAV DRAWER -->
+  <nav class="mobile-nav" id="mobileNav">
+    <button class="mobile-close" id="mobileClose">✕</button>
+    <a href="#home"    data-page="home">Beranda</a>
+    <a href="#layanan" data-page="layanan">Layanan</a>
+    <a href="#team"    data-page="team">Tim Pengajar</a>
+    <a href="#faq"     data-page="faq">FAQ</a>
+    <a href="https://wa.me/6287744736425" target="_blank" class="btn btn-hero-wa" style="margin-top:16px;justify-content:center;">
+      <i class="fa-brands fa-whatsapp"></i> Daftar Sekarang
+    </a>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════
+       PAGES
+  ══════════════════════════════════════════════ -->
+
+  <!-- ▓▓▓▓▓▓▓▓▓▓▓▓ PAGE: HOME ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+  <div class="page active" id="page-home">
+
+    <!-- HERO -->
+    <section class="hero">
+      <!-- Classroom photo — right side background -->
+      <div class="hero-photo-area"></div>
+
+      <!-- Blue slanted shape — left -->
+      <div class="hero-shape"></div>
+
+      <!-- Yellow accent slice — between blue shape and content -->
+      <div class="hero-yellow-slice"></div>
+
+      <!-- Text content (over blue shape) -->
+      <div class="container hero-content">
+        <div class="hero-content-inner">
+          <div class="hero-label">Bimbingan Belajar Matematika · Surabaya</div>
+          <h1 class="hero-h1">
+            Bimbingan Tepat,
+            <em>Prestasi Hebat.</em>
+          </h1>
+          <p class="hero-sub">
+            Les matematika private &amp; semi-private untuk SD, SMP, SMA, Olimpiade,
+            UTBK, TKA, hingga Mahasiswa — dengan tutor berpengalaman di Surabaya.
+          </p>
+          <div class="hero-actions">
+            <a href="https://wa.me/6287744736425" target="_blank" class="btn btn-hero-wa">
+              <i class="fa-brands fa-whatsapp"></i> Hubungi via WhatsApp
+            </a>
+            <a href="#layanan" class="btn btn-hero-wa" data-page="layanan">
+              Lihat Program →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO / ABOUT -->
+    <section class="intro-section">
+      <div class="container intro-grid">
+        <div class="intro-visual reveal">
+          <div class="intro-img">🎓</div>
+          <div class="intro-badge">
+            <span class="intro-badge-num">100%</span>
+            <span class="intro-badge-lbl">Fokus Matematika</span>
+          </div>
+        </div>
+        <div class="intro-content reveal reveal-delay-2">
+          <span class="section-eyebrow">Tentang Delta Prima</span>
+          <h2 class="section-title">Solusi Belajar Matematika yang Efektif &amp; Personal</h2>
+          <p>
+            Delta Prima adalah bimbingan belajar yang berfokus penuh pada Matematika untuk semua jenjang pendidikan di Surabaya.
+            Kami percaya setiap siswa memiliki potensi — tugas kami adalah membantu mereka menemukan dan memaksimalkannya.
+          </p>
+          <p>
+            Dengan kelas maksimal 5 siswa, setiap peserta mendapatkan perhatian penuh dari tutor berpengalaman kami.
+            Tersedia dua pilihan belajar: di lokasi kami yang nyaman, atau tutor datang ke rumah Anda.
+          </p>
+          <ul class="check-list">
+            <li class="check-item">
+              <span class="check-dot">✓</span>
+              <span>Kelas private &amp; semi-private — maks. 5 siswa untuk perhatian optimal</span>
+            </li>
+            <li class="check-item">
+              <span class="check-dot">✓</span>
+              <span>Tutor datang ke rumah (home visit) tersedia</span>
+            </li>
+            <li class="check-item">
+              <span class="check-dot">✓</span>
+              <span>Metode pembelajaran adaptif sesuai kemampuan siswa</span>
+            </li>
+            <li class="check-item">
+              <span class="check-dot">✓</span>
+              <span>Jadwal fleksibel yang dapat disesuaikan kebutuhan</span>
+            </li>
+          </ul>
+          <a href="#layanan" class="btn btn-navy" data-page="layanan">Jelajahi Semua Program →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMS GRID -->
+    <section class="programs-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Program Unggulan</span>
+          <h2 class="section-title">Matematika untuk Semua Jenjang</h2>
+          <p class="section-desc">Dari fondasi dasar hingga persiapan olimpiade nasional — semua tersedia di Delta Prima.</p>
+        </div>
+        <div class="programs-grid">
+          <div class="prog-card reveal reveal-delay-1" data-cat="sekolah">
+            <div class="prog-card-header"><span class="prog-card-icon">🔢</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Jenjang Dasar</div>
+              <div class="prog-card-title">Matematika SD</div>
+              <div class="prog-card-desc">Membangun fondasi matematika yang kuat sejak dini dengan pendekatan yang menyenangkan dan mudah dipahami.</div>
+              <div class="prog-card-tags">
+                <span class="tag">Kelas 1–6</span>
+                <span class="tag">Private</span>
+                <span class="tag">Semi-Private</span>
+              </div>
+              <a href="#layanan" class="prog-card-link" data-page="layanan">Selengkapnya <span>→</span></a>
+            </div>
+          </div>
+          <div class="prog-card reveal reveal-delay-2" data-cat="sekolah">
+            <div class="prog-card-header"><span class="prog-card-icon">📊</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Jenjang Menengah</div>
+              <div class="prog-card-title">Matematika SMP</div>
+              <div class="prog-card-desc">Memperkuat konsep aljabar, geometri, dan statistika. Persiapan ujian sekolah dan transisi ke SMA.</div>
+              <div class="prog-card-tags">
+                <span class="tag">Kelas 7–9</span>
+                <span class="tag">Private</span>
+                <span class="tag">Semi-Private</span>
+              </div>
+              <a href="#layanan" class="prog-card-link" data-page="layanan">Selengkapnya <span>→</span></a>
+            </div>
+          </div>
+          <div class="prog-card reveal reveal-delay-3" data-cat="sekolah">
+            <div class="prog-card-header"><span class="prog-card-icon">📈</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Jenjang Atas</div>
+              <div class="prog-card-title">Matematika SMA</div>
+              <div class="prog-card-desc">Kalkulus, trigonometri, matriks, peluang, dan lebih banyak lagi. Persiapan menyeluruh untuk UN dan ujian PTN.</div>
+              <div class="prog-card-tags">
+                <span class="tag">Kelas 10–12</span>
+                <span class="tag">Private</span>
+                <span class="tag">Semi-Private</span>
+              </div>
+              <a href="#layanan" class="prog-card-link" data-page="layanan">Selengkapnya <span>→</span></a>
+            </div>
+          </div>
+          <div class="prog-card reveal reveal-delay-1" data-cat="kompetisi">
+            <div class="prog-card-header"><span class="prog-card-icon">🏅</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Kompetisi</div>
+              <div class="prog-card-title">Olimpiade Matematika</div>
+              <div class="prog-card-desc">Pelatihan intensif untuk OSN, KSN, dan kompetisi matematika lainnya. Strategi dan teknik pemecahan soal tingkat lanjut.</div>
+              <div class="prog-card-tags">
+                <span class="tag">OSN</span>
+                <span class="tag">KSN</span>
+                <span class="tag">Kompetisi Lokal</span>
+              </div>
+              <a href="#layanan" class="prog-card-link" data-page="layanan">Selengkapnya <span>→</span></a>
+            </div>
+          </div>
+          <div class="prog-card reveal reveal-delay-2" data-cat="kompetisi">
+            <div class="prog-card-header"><span class="prog-card-icon">🎯</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Ujian Masuk PTN</div>
+              <div class="prog-card-title">UTBK &amp; TKA</div>
+              <div class="prog-card-desc">Bimbingan intensif khusus UTBK-SNBT dan TKA. Latihan soal prediksi dengan pembahasan mendalam dan strategi mengerjakan.</div>
+              <div class="prog-card-tags">
+                <span class="tag">UTBK</span>
+                <span class="tag">TKA</span>
+                <span class="tag">SNBT</span>
+              </div>
+              <a href="#layanan" class="prog-card-link" data-page="layanan">Selengkapnya <span>→</span></a>
+            </div>
+          </div>
+          <div class="prog-card reveal reveal-delay-3" data-cat="mahasiswa">
+            <div class="prog-card-header"><span class="prog-card-icon">🎓</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Perguruan Tinggi</div>
+              <div class="prog-card-title">Matematika Mahasiswa</div>
+              <div class="prog-card-desc">Kalkulus lanjut, aljabar linear, statistika, matematika diskrit. Pendampingan tugas kuliah dan persiapan UAS.</div>
+              <div class="prog-card-tags">
+                <span class="tag">Kalkulus</span>
+                <span class="tag">Aljabar Linear</span>
+                <span class="tag">Statistika</span>
+              </div>
+              <a href="#layanan" class="prog-card-link" data-page="layanan">Selengkapnya <span>→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS BAND -->
+    <section class="stats-band">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item reveal">
+            <span class="stat-num">
+              <span data-counter data-target="7">0</span><span class="unit">+</span>
+            </span>
+            <div class="stat-label">Program Bimbingan<br>Tersedia</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-1">
+            <span class="stat-num">
+              ≤<span data-counter data-target="5">0</span>
+            </span>
+            <div class="stat-label">Siswa per Kelas<br>untuk Fokus Optimal</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-2">
+            <span class="stat-num">
+              <span data-counter data-target="2">0</span>
+            </span>
+            <div class="stat-label">Pilihan Mode Belajar:<br>Di Tempat &amp; Home Visit</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-3">
+            <span class="stat-num">
+              <span data-counter data-target="100">0</span><span class="unit">%</span>
+            </span>
+            <div class="stat-label">Fokus Matematika<br>Semua Jenjang</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FASILITAS -->
+    <section class="fasil-section" id="fasilitas">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Fasilitas</span>
+          <h2 class="section-title">Lingkungan Belajar yang Nyaman &amp; Kondusif</h2>
+          <p class="section-desc">Kami menyediakan fasilitas lengkap agar setiap sesi belajar berjalan efektif dan menyenangkan.</p>
+        </div>
+        <div class="fasil-layout">
+          <div class="fasil-showcase reveal">
+            <div class="fasil-img tall" style="background: linear-gradient(135deg,#1595FF,#004AAD);">
+              <span>🏫</span>
+              <div class="fasil-img-label">Ruang Belajar Utama</div>
+            </div>
+            <div class="fasil-img" style="background: linear-gradient(135deg,#326EAC,#004AAD);">
+              <span>📖</span>
+              <div class="fasil-img-label">Ruang Baca</div>
+            </div>
+            <div class="fasil-img" style="background: linear-gradient(135deg,#004AAD,#001f5e);">
+              <span>📝</span>
+              <div class="fasil-img-label">Papan Tulis Interaktif</div>
+            </div>
+          </div>
+          <div class="fasil-list reveal reveal-delay-2">
+            <div class="fasil-item">
+              <div class="fasil-item-icon">❄️</div>
+              <div class="fasil-item-text">
+                <strong>Ruang Ber-AC</strong>
+                <span>Suasana belajar yang sejuk dan nyaman agar siswa tetap fokus sepanjang sesi pembelajaran.</span>
+              </div>
+            </div>
+            <div class="fasil-item">
+              <div class="fasil-item-icon">📝</div>
+              <div class="fasil-item-text">
+                <strong>Papan Tulis</strong>
+                <span>Papan tulis besar di setiap ruangan untuk penjelasan visual yang jelas dan interaktif.</span>
+              </div>
+            </div>
+            <div class="fasil-item">
+              <div class="fasil-item-icon">🪑</div>
+              <div class="fasil-item-text">
+                <strong>Meja Belajar Ergonomis</strong>
+                <span>Meja dan kursi yang nyaman untuk mendukung posisi duduk yang baik selama belajar.</span>
+              </div>
+            </div>
+            <div class="fasil-item">
+              <div class="fasil-item-icon">📖</div>
+              <div class="fasil-item-text">
+                <strong>Ruang Baca</strong>
+                <span>Area membaca yang tenang dengan koleksi buku dan referensi matematika lengkap.</span>
+              </div>
+            </div>
+            <div class="fasil-item">
+              <div class="fasil-item-icon">🏠</div>
+              <div class="fasil-item-text">
+                <strong>Layanan Home Visit</strong>
+                <span>Tutor berpengalaman siap datang ke rumah siswa sesuai jadwal yang disepakati.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL CAROUSEL -->
+    <section class="testi-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Testimoni</span>
+          <h2 class="section-title">Kata Mereka tentang Delta Prima</h2>
+          <p class="section-desc">Kepuasan siswa dan orang tua adalah prioritas utama kami.</p>
+        </div>
+        <div class="testi-track-wrap reveal">
+          <div class="testi-track">
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-quote">"Anak saya yang dulunya takut dengan matematika, sekarang justru sangat antusias belajar. Tutor di Delta Prima sangat sabar dan metodenya mudah dipahami."</p>
+              <div class="testi-author">
+                <div class="testi-avatar">👩</div>
+                <div class="testi-info">
+                  <strong>Ibu Sari</strong>
+                  <span>Orang tua siswa SD Kelas 5</span>
+                </div>
+              </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-quote">"Nilai matematika saya naik drastis setelah les di sini. Sekarang saya keterima di jurusan Teknik impian saya. Terima kasih Delta Prima!"</p>
+              <div class="testi-author">
+                <div class="testi-avatar">👦</div>
+                <div class="testi-info">
+                  <strong>Rizky Pratama</strong>
+                  <span>Alumni SMA, mahasiswa Teknik ITS</span>
+                </div>
+              </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-quote">"Program olimpiadenya sangat intensif dan terstruktur. Alhamdulillah bisa masuk final OSN tingkat provinsi tahun ini!"</p>
+              <div class="testi-author">
+                <div class="testi-avatar">👧</div>
+                <div class="testi-info">
+                  <strong>Aulia Ramadhani</strong>
+                  <span>Siswa SMP, Finalis OSN Provinsi</span>
+                </div>
+              </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-quote">"Saya sangat suka sistem belajar semi-private di Delta Prima. Suasana kelasnya kondusif dan tidak terlalu banyak siswa, jadi lebih mudah fokus."</p>
+              <div class="testi-author">
+                <div class="testi-avatar">👦</div>
+                <div class="testi-info">
+                  <strong>Farhan Hidayat</strong>
+                  <span>Siswa SMA Kelas 11</span>
+                </div>
+              </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-quote">"Jadwal home visit-nya sangat fleksibel, cocok sekali untuk anak saya yang kegiatannya padat. Tutornya juga profesional dan tepat waktu."</p>
+              <div class="testi-author">
+                <div class="testi-avatar">👩</div>
+                <div class="testi-info">
+                  <strong>Ibu Dewi</strong>
+                  <span>Orang tua siswa SMP</span>
+                </div>
+              </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-quote">"Kalkulus yang selama ini bikin saya pusing akhirnya bisa saya kuasai berkat bimbingan di sini. Sangat membantu untuk perkuliahan saya."</p>
+              <div class="testi-author">
+                <div class="testi-avatar">🧑</div>
+                <div class="testi-info">
+                  <strong>Bagas Wicaksono</strong>
+                  <span>Mahasiswa Teknik Semester 2</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="car-btn car-prev" aria-label="Previous">←</button>
+          <div class="car-dots"></div>
+          <button class="car-btn car-next" aria-label="Next">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Siap Meraih Prestasi Terbaik?</h2>
+        <p>Bergabunglah dengan Delta Prima sekarang dan rasakan perbedaan belajar bersama tutor matematika terbaik di Surabaya.</p>
+        <div class="cta-btns">
+          <a href="https://wa.me/6287744736425" target="_blank" class="btn btn-hero-wa">
+            <i class="fa-brands fa-whatsapp"></i> Chat via WhatsApp
+          </a>
+          <a href="https://www.instagram.com/bimbel.deltaprima" target="_blank" class="btn btn-navy">
+            <i class="fa-brands fa-instagram"></i> Instagram Kami
+          </a>
+          <a href="#layanan" class="btn btn-outline-navy" data-page="layanan">
+            Lihat Paket Harga
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <!-- /page-home -->
+
+
+  <!-- ▓▓▓▓▓▓▓▓▓▓▓▓ PAGE: LAYANAN ▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+  <div class="page" id="page-layanan">
+
+    <div class="page-hero">
+      <div class="container">
+        <div class="page-hero-breadcrumb">
+          <a href="#home" data-page="home">Beranda</a>
+          <span class="sep">/</span>
+          <span>Layanan</span>
+        </div>
+        <h1>Program Bimbingan Belajar</h1>
+        <p>Temukan program matematika yang paling sesuai dengan kebutuhan dan tujuan belajar Anda. Tersedia untuk semua jenjang pendidikan.</p>
+      </div>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="filter-bar">
+      <div class="container filter-inner">
+        <button class="filter-btn active" data-filter="all">Semua Program</button>
+        <button class="filter-btn" data-filter="sekolah">Jenjang Sekolah</button>
+        <button class="filter-btn" data-filter="kompetisi">Kompetisi &amp; Ujian</button>
+        <button class="filter-btn" data-filter="mahasiswa">Perguruan Tinggi</button>
+        <button class="filter-btn" data-filter="homevisit">Home Visit</button>
+      </div>
+    </div>
+
+    <!-- Program cards detail -->
+    <section style="padding: 60px 0; background: var(--c-white);">
+      <div class="container">
+        <div class="programs-grid">
+
+          <div class="prog-card reveal" data-cat="sekolah">
+            <div class="prog-card-header"><span class="prog-card-icon">🔢</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Jenjang Dasar · SD</div>
+              <div class="prog-card-title">Matematika SD</div>
+              <div class="prog-card-desc">
+                Membangun fondasi matematika yang kuat sejak dini. Materi diajarkan dengan pendekatan visual dan konkret agar mudah dipahami anak-anak. Mencakup bilangan, operasi hitung, geometri dasar, pecahan, dan pengenalan data.
+              </div>
+              <div class="prog-card-tags">
+                <span class="tag">Kelas 1–6</span>
+                <span class="tag">Private</span>
+                <span class="tag">Semi-Private</span>
+                <span class="tag">Home Visit</span>
+              </div>
+              <a href="https://wa.me/6287744736425" target="_blank" class="prog-card-link">Daftar Sekarang <span>→</span></a>
+            </div>
+          </div>
+
+          <div class="prog-card reveal reveal-delay-1" data-cat="sekolah">
+            <div class="prog-card-header"><span class="prog-card-icon">📊</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Jenjang Menengah · SMP</div>
+              <div class="prog-card-title">Matematika SMP</div>
+              <div class="prog-card-desc">
+                Memperkuat pemahaman aljabar, geometri, persamaan linear, perbandingan, bangun ruang, dan statistika. Persiapan ujian sekolah dan membangun kepercayaan diri menjelang jenjang SMA.
+              </div>
+              <div class="prog-card-tags">
+                <span class="tag">Kelas 7–9</span>
+                <span class="tag">Private</span>
+                <span class="tag">Semi-Private</span>
+                <span class="tag">Home Visit</span>
+              </div>
+              <a href="https://wa.me/6287744736425" target="_blank" class="prog-card-link">Daftar Sekarang <span>→</span></a>
+            </div>
+          </div>
+
+          <div class="prog-card reveal reveal-delay-2" data-cat="sekolah">
+            <div class="prog-card-header"><span class="prog-card-icon">📈</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Jenjang Atas · SMA</div>
+              <div class="prog-card-title">Matematika SMA</div>
+              <div class="prog-card-desc">
+                Materi lengkap meliputi fungsi, trigonometri, matriks, vektor, kalkulus, peluang, dan statistika. Persiapan menyeluruh untuk ujian sekolah, UN, dan tes masuk perguruan tinggi negeri.
+              </div>
+              <div class="prog-card-tags">
+                <span class="tag">Kelas 10–12</span>
+                <span class="tag">Private</span>
+                <span class="tag">Semi-Private</span>
+                <span class="tag">Home Visit</span>
+              </div>
+              <a href="https://wa.me/6287744736425" target="_blank" class="prog-card-link">Daftar Sekarang <span>→</span></a>
+            </div>
+          </div>
+
+          <div class="prog-card reveal" data-cat="kompetisi">
+            <div class="prog-card-header"><span class="prog-card-icon">🏅</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Kompetisi</div>
+              <div class="prog-card-title">Olimpiade Matematika</div>
+              <div class="prog-card-desc">
+                Pelatihan intensif dan terstruktur untuk menghadapi OSN, KSN, dan berbagai kompetisi matematika lokal maupun nasional. Fokus pada strategi pemecahan masalah tingkat lanjut dan pola soal olimpiade.
+              </div>
+              <div class="prog-card-tags">
+                <span class="tag">OSN</span>
+                <span class="tag">KSN</span>
+                <span class="tag">SD/SMP/SMA</span>
+              </div>
+              <a href="https://wa.me/6287744736425" target="_blank" class="prog-card-link">Daftar Sekarang <span>→</span></a>
+            </div>
+          </div>
+
+          <div class="prog-card reveal reveal-delay-1" data-cat="kompetisi">
+            <div class="prog-card-header"><span class="prog-card-icon">🎯</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Ujian Masuk PTN</div>
+              <div class="prog-card-title">UTBK &amp; TKA</div>
+              <div class="prog-card-desc">
+                Bimbingan intensif khusus persiapan UTBK-SNBT dan Tes Kemampuan Akademik (TKA). Latihan soal prediksi terbaru, teknik manajemen waktu, dan pembahasan mendalam untuk setiap tipe soal.
+              </div>
+              <div class="prog-card-tags">
+                <span class="tag">UTBK</span>
+                <span class="tag">TKA Saintek</span>
+                <span class="tag">SNBT</span>
+              </div>
+              <a href="https://wa.me/6287744736425" target="_blank" class="prog-card-link">Daftar Sekarang <span>→</span></a>
+            </div>
+          </div>
+
+          <div class="prog-card reveal reveal-delay-2" data-cat="mahasiswa">
+            <div class="prog-card-header"><span class="prog-card-icon">🎓</span></div>
+            <div class="prog-card-body">
+              <div class="prog-card-level">Perguruan Tinggi</div>
+              <div class="prog-card-title">Matematika Mahasiswa</div>
+              <div class="prog-card-desc">
+                Pendampingan komprehensif untuk mahasiswa yang menghadapi mata kuliah matematika: kalkulus, aljabar linear, statistika, matematika diskrit, probabilitas, dan analisis numerik.
+              </div>
+              <div class="prog-card-tags">
+                <span class="tag">Kalkulus</span>
+                <span class="tag">Aljabar Linear</span>
+                <span class="tag">Statistika</span>
+              </div>
+              <a href="https://wa.me/6287744736425" target="_blank" class="prog-card-link">Daftar Sekarang <span>→</span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Paket Harga</span>
+          <h2 class="section-title">Pilih Paket yang Sesuai</h2>
+          <p class="section-desc">Harga transparan tanpa biaya tersembunyi. Hubungi kami untuk detail dan penawaran khusus.</p>
+        </div>
+        <div class="pricing-grid">
+          <div class="price-card reveal">
+            <div class="price-type">Belajar di Lokasi</div>
+            <div class="price-name">Semi-Private</div>
+            <div class="price-amount">
+              <span class="price-currency">Rp</span>
+              <span class="price-number">–</span>
+            </div>
+            <div class="price-note">Hubungi kami untuk info tarif terkini</div>
+            <hr class="price-divider" />
+            <ul class="price-features">
+              <li class="pf-item"><span class="pf-check">✓</span> Maksimal 5 siswa per kelas</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Ruang belajar ber-AC</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Papan tulis &amp; fasilitas lengkap</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Modul &amp; latihan soal</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Ruang baca tersedia</li>
+              <li class="pf-item"><span class="pf-x">✗</span> Home visit tidak termasuk</li>
+            </ul>
+            <a href="https://wa.me/6287744736425" target="_blank" class="btn btn-outline-navy" style="width:100%;justify-content:center;">
+              Tanya Harga
+            </a>
+          </div>
+
+          <div class="price-card featured reveal reveal-delay-1">
+            <div class="price-badge">⭐ Paling Populer</div>
+            <div class="price-type">Belajar di Lokasi</div>
+            <div class="price-name">Private</div>
+            <div class="price-amount">
+              <span class="price-currency">Rp</span>
+              <span class="price-number">–</span>
+            </div>
+            <div class="price-note">Hubungi kami untuk info tarif terkini</div>
+            <hr class="price-divider" />
+            <ul class="price-features">
+              <li class="pf-item"><span class="pf-check">✓</span> 1 siswa — perhatian penuh</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Materi 100% disesuaikan</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Jadwal fleksibel</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Modul &amp; latihan soal eksklusif</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Ruang belajar ber-AC</li>
+              <li class="pf-item"><span class="pf-x">✗</span> Home visit tidak termasuk</li>
+            </ul>
+            <a href="https://wa.me/6287744736425" target="_blank" class="btn btn-navy" style="width:100%;justify-content:center;">
+              Daftar Sekarang →
+            </a>
+          </div>
+
+          <div class="price-card reveal reveal-delay-2">
+            <div class="price-type">Tutor ke Rumah</div>
+            <div class="price-name">Home Visit</div>
+            <div class="price-amount">
+              <span class="price-currency">Rp</span>
+              <span class="price-number">–</span>
+            </div>
+            <div class="price-note">Termasuk biaya transport (area Surabaya)</div>
+            <hr class="price-divider" />
+            <ul class="price-features">
+              <li class="pf-item"><span class="pf-check">✓</span> Tutor datang ke rumah Anda</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Private maupun kelompok kecil</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Jadwal sangat fleksibel</span></li>
+              <li class="pf-item"><span class="pf-check">✓</span> Modul &amp; latihan soal</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Tersedia seluruh area Surabaya</li>
+              <li class="pf-item"><span class="pf-check">✓</span> Cocok untuk siswa sibuk</li>
+            </ul>
+            <a href="https://wa.me/6287744736425" target="_blank" class="btn btn-outline-navy" style="width:100%;justify-content:center;">
+              Tanya Harga
+            </a>
+          </div>
+        </div>
+        <p style="text-align:center;color:var(--c-muted);font-size:.9rem;margin-top:28px;">
+          * Harga dapat berbeda berdasarkan jenjang dan program. Konsultasi gratis tersedia via WhatsApp.
+        </p>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Masih Ragu? Konsultasi Gratis Dulu!</h2>
+        <p>Tim kami siap membantu Anda memilih program yang paling tepat sesuai kebutuhan dan anggaran.</p>
+        <div class="cta-btns">
+          <a href="https://wa.me/6287744736425" target="_blank" class="btn btn-hero-wa"><i class="fa-brands fa-whatsapp"></i> WhatsApp Kami</a>
+          <a href="mailto:deltaprima2357@gmail.com" class="btn btn-navy"><i class="fa-regular fa-envelope"></i> Kirim Email</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <!-- /page-layanan -->
+
+
+  <!-- ▓▓▓▓▓▓▓▓▓▓▓▓ PAGE: TEAM ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+  <div class="page" id="page-team">
+
+    <div class="page-hero">
+      <div class="container">
+        <div class="page-hero-breadcrumb">
+          <a href="#home" data-page="home">Beranda</a>
+          <span class="sep">/</span>
+          <span>Tim Pengajar</span>
+        </div>
+        <h1>Tim Pengajar Delta Prima</h1>
+        <p>Kenali para tutor berpengalaman dan berdedikasi yang akan membimbing Anda menuju prestasi terbaik.</p>
+      </div>
+    </div>
+
+    <section class="team-section">
+      <div class="container">
+        <div class="team-grid">
+
+          <div class="team-card reveal">
+            <div class="team-card-top">
+              <div class="team-avatar">👨‍🏫</div>
+            </div>
+            <div class="team-card-body">
+              <div class="team-name">Tutor SMA &amp; UTBK</div>
+              <div class="team-role">Spesialis SMA &amp; Ujian Masuk PTN</div>
+              <div class="team-bio">
+                Berpengalaman membimbing ratusan siswa SMA dalam mempersiapkan UTBK-SNBT dan ujian sekolah. Menggunakan pendekatan problem-solving yang terstruktur untuk membantu siswa memahami konsep secara mendalam.
+              </div>
+              <div class="team-tags">
+                <span class="tag">Matematika SMA</span>
+                <span class="tag">UTBK</span>
+                <span class="tag">TKA Saintek</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card reveal reveal-delay-1">
+            <div class="team-card-top">
+              <div class="team-avatar">👩‍🏫</div>
+            </div>
+            <div class="team-card-body">
+              <div class="team-name">Tutor Olimpiade</div>
+              <div class="team-role">Spesialis Kompetisi Matematika</div>
+              <div class="team-bio">
+                Ahli dalam persiapan olimpiade matematika tingkat kabupaten hingga nasional (OSN/KSN). Memiliki rekam jejak membimbing siswa hingga tahap final olimpiade tingkat provinsi.
+              </div>
+              <div class="team-tags">
+                <span class="tag">OSN</span>
+                <span class="tag">KSN</span>
+                <span class="tag">Matematika Lanjutan</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card reveal reveal-delay-2">
+            <div class="team-card-top">
+              <div class="team-avatar">🧑‍🏫</div>
+            </div>
+            <div class="team-card-body">
+              <div class="team-name">Tutor SD &amp; SMP</div>
+              <div class="team-role">Spesialis Jenjang Dasar &amp; Menengah</div>
+              <div class="team-bio">
+                Ahli dalam membangun fondasi matematika yang kuat untuk siswa SD dan SMP. Dikenal sabar, kreatif, dan mampu menyampaikan materi dengan cara yang menyenangkan bagi anak-anak.
+              </div>
+              <div class="team-tags">
+                <span class="tag">Matematika SD</span>
+                <span class="tag">Matematika SMP</span>
+                <span class="tag">Home Visit</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card reveal">
+            <div class="team-card-top">
+              <div class="team-avatar">👨‍💻</div>
+            </div>
+            <div class="team-card-body">
+              <div class="team-name">Tutor Mahasiswa</div>
+              <div class="team-role">Spesialis Matematika Tingkat Lanjut</div>
+              <div class="team-bio">
+                Lulusan terbaik jurusan Matematika dengan pengalaman mendampingi mahasiswa dalam mata kuliah kalkulus, aljabar linear, statistika, dan matematika diskrit di berbagai universitas di Surabaya.
+              </div>
+              <div class="team-tags">
+                <span class="tag">Kalkulus</span>
+                <span class="tag">Aljabar Linear</span>
+                <span class="tag">Statistika</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-card reveal reveal-delay-1">
+            <div class="team-card-top">
+              <div class="team-avatar">👩‍💼</div>
+            </div>
+            <div class="team-card-body">
+              <div class="team-name">Koordinator Akademik</div>
+              <div class="team-role">Manajemen &amp; Penjadwalan</div>
+              <div class="team-bio">
+                Bertanggung jawab atas pengelolaan jadwal, monitoring kemajuan belajar siswa, dan komunikasi dengan orang tua. Memastikan pengalaman belajar di Delta Prima berjalan lancar dan memuaskan.
+              </div>
+              <div class="team-tags">
+                <span class="tag">Akademik</span>
+                <span class="tag">Monitoring</span>
+                <span class="tag">Konsultasi</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Join as tutor CTA -->
+        <div style="background:var(--c-off);border-radius:var(--r-lg);padding:48px;text-align:center;margin-top:60px;" class="reveal">
+          <span class="section-eyebrow">Bergabunglah</span>
+          <h3 style="font-family:var(--f-serif);font-size:1.8rem;color:var(--c-navy);margin-bottom:12px;">Ingin Menjadi Tutor di Delta Prima?</h3>
+          <p style="color:var(--c-muted);max-width:500px;margin:0 auto 24px;">
+            Kami selalu mencari tutor matematika yang berpengalaman, berdedikasi, dan antusias dalam mendidik generasi muda.
+          </p>
+          <a href="mailto:deltaprima2357@gmail.com" class="btn btn-navy"><i class="fa-regular fa-envelope"></i> Kirim Lamaran</a>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+  <!-- /page-team -->
+
+
+  <!-- ▓▓▓▓▓▓▓▓▓▓▓▓ PAGE: FAQ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ -->
+  <div class="page" id="page-faq">
+
+    <div class="page-hero">
+      <div class="container">
+        <div class="page-hero-breadcrumb">
+          <a href="#home" data-page="home">Beranda</a>
+          <span class="sep">/</span>
+          <span>FAQ</span>
+        </div>
+        <h1>Pertanyaan yang Sering Ditanyakan</h1>
+        <p>Temukan jawaban atas pertanyaan umum seputar program bimbingan belajar di Delta Prima.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="faq-layout">
+
+        <!-- Sidebar -->
+        <div class="faq-sidebar">
+          <h3>Kategori</h3>
+          <div class="faq-cat-list">
+            <button class="faq-cat-btn active" data-cat="all">📋 Semua Pertanyaan</button>
+            <button class="faq-cat-btn" data-cat="umum">ℹ️ Umum</button>
+            <button class="faq-cat-btn" data-cat="daftar">📝 Cara Daftar</button>
+            <button class="faq-cat-btn" data-cat="harga">💰 Biaya &amp; Harga</button>
+            <button class="faq-cat-btn" data-cat="program">📚 Program &amp; Materi</button>
+            <button class="faq-cat-btn" data-cat="jadwal">📅 Jadwal &amp; Lokasi</button>
+          </div>
+          <div style="margin-top:32px;padding:20px;background:var(--c-navy);border-radius:var(--r-md);">
+            <p style="font-size:.85rem;color:rgba(255,255,255,.7);margin-bottom:12px;line-height:1.6;">Tidak menemukan jawaban yang Anda cari?</p>
+            <a href="https://wa.me/6287744736425" target="_blank" class="btn btn-hero-wa" style="width:100%;justify-content:center;font-size:.85rem;">
+              <i class="fa-brands fa-whatsapp"></i> Tanya Langsung
+            </a>
+          </div>
+        </div>
+
+        <!-- Main FAQ -->
+        <div class="faq-main">
+
+          <div class="faq-group" data-cat="umum">
+            <div class="faq-group-title">Informasi Umum</div>
+            <div class="faq-list">
+              <div class="faq-item">
+                <button class="faq-q">Apa itu Bimbingan Belajar Delta Prima? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Delta Prima adalah bimbingan belajar yang berfokus 100% pada Matematika untuk semua jenjang pendidikan di Surabaya. Kami menyediakan les private dan semi-private dengan maksimal 5 siswa per kelas, serta layanan home visit.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-q">Mata pelajaran apa saja yang tersedia? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Saat ini Delta Prima berfokus sepenuhnya pada Matematika, mulai dari SD, SMP, SMA, Olimpiade, UTBK/TKA, hingga tingkat mahasiswa. Dengan fokus ini, kami dapat memastikan kualitas pengajaran yang optimal di setiap jenjang.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-q">Apa perbedaan kelas private dan semi-private? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Kelas <strong>private</strong> adalah les 1-on-1 antara siswa dan tutor, sehingga seluruh waktu dan perhatian tutor tercurah untuk satu siswa. Kelas <strong>semi-private</strong> diisi oleh 2–5 siswa dengan tingkat kemampuan yang setara, sehingga tetap kondusif namun lebih terjangkau dari segi biaya.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-group" data-cat="daftar">
+            <div class="faq-group-title">Cara Pendaftaran</div>
+            <div class="faq-list">
+              <div class="faq-item">
+                <button class="faq-q">Bagaimana cara mendaftar di Delta Prima? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Pendaftaran sangat mudah! Cukup hubungi kami melalui WhatsApp di <a href="https://wa.me/6287744736425" style="color:var(--c-sky);font-weight:600;">+62 877-4473-6425</a> atau melalui Instagram <a href="https://www.instagram.com/bimbel.deltaprima" style="color:var(--c-sky);font-weight:600;">@bimbel.deltaprima</a>. Tim kami akan membantu Anda memilih program yang paling sesuai dan mengatur jadwal belajar.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-q">Apakah tersedia sesi percobaan (trial)? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Kami menawarkan konsultasi gratis untuk membantu Anda menentukan program yang tepat. Hubungi kami untuk informasi lebih lanjut mengenai kemungkinan sesi percobaan yang tersedia.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-q">Apakah ada tes masuk sebelum bergabung? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Untuk kelas semi-private, kami melakukan asesmen awal singkat untuk mengelompokkan siswa sesuai kemampuan agar proses belajar lebih efektif. Untuk kelas private, asesmen ini membantu tutor merancang materi yang paling sesuai.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-group" data-cat="harga">
+            <div class="faq-group-title">Biaya &amp; Harga</div>
+            <div class="faq-list">
+              <div class="faq-item">
+                <button class="faq-q">Berapa biaya les di Delta Prima? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Biaya les bervariasi tergantung jenjang pendidikan, mode belajar (di tempat atau home visit), dan frekuensi pertemuan. Hubungi kami melalui WhatsApp untuk mendapatkan informasi tarif terkini dan penawaran paket yang sesuai dengan kebutuhan dan anggaran Anda.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-q">Apakah ada biaya pendaftaran? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Hubungi kami untuk informasi lengkap mengenai biaya administrasi dan pendaftaran. Kami selalu mengutamakan transparansi dalam hal biaya tanpa biaya tersembunyi.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-q">Bagaimana sistem pembayaran? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Kami menyediakan beberapa opsi pembayaran yang fleksibel. Detail metode dan jadwal pembayaran dapat didiskusikan saat konsultasi pendaftaran. Hubungi kami untuk informasi lebih lanjut.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-group" data-cat="program">
+            <div class="faq-group-title">Program &amp; Materi</div>
+            <div class="faq-list">
+              <div class="faq-item">
+                <button class="faq-q">Kurikulum apa yang digunakan? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Materi kami mengikuti kurikulum sekolah yang berlaku (Kurikulum Merdeka / K-13) serta disesuaikan dengan kebutuhan spesifik siswa — baik untuk mengejar ketertinggalan, mempersiapkan ujian, maupun mengembangkan kemampuan di atas rata-rata.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-q">Apakah modul atau buku belajar disediakan? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Ya! Kami menyediakan modul belajar dan bank soal latihan yang disusun oleh tim tutor berpengalaman. Materi ini dirancang untuk melengkapi buku pelajaran sekolah dengan soal-soal yang relevan dan terstruktur.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-q">Bagaimana program untuk persiapan UTBK? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Program UTBK kami mencakup: review materi matematika dasar dan lanjutan, latihan soal prediksi UTBK berdasarkan pola soal terbaru, teknik pengerjaan soal yang efisien, manajemen waktu, dan try-out rutin untuk mengukur perkembangan. Program dapat dimulai kapan saja sesuai kebutuhan.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-group" data-cat="jadwal">
+            <div class="faq-group-title">Jadwal &amp; Lokasi</div>
+            <div class="faq-list">
+              <div class="faq-item">
+                <button class="faq-q">Di mana lokasi Delta Prima? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Kami berlokasi di <strong>Jl. Pandugo Sari VIII Blok L-26, Penjaringan Sari, Kec. Rungkut, Surabaya, Jawa Timur 60297</strong>. Lokasi strategis dan mudah dijangkau dari berbagai wilayah Surabaya Timur.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-q">Jam operasional Delta Prima? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Kami buka Senin hingga Sabtu pukul 08.00–20.00 WIB. Untuk home visit, jadwal dapat lebih fleksibel dan disesuaikan dengan ketersediaan siswa dan tutor.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-q">Apakah home visit tersedia di seluruh Surabaya? <span class="faq-icon">+</span></button>
+                <div class="faq-a">Layanan home visit kami tersedia untuk seluruh area Surabaya. Biaya transport dapat bervariasi tergantung jarak. Hubungi kami untuk konfirmasi ketersediaan di lokasi Anda.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- /faq-main -->
+
+      </div>
+    </div>
+
+  </div>
+  <!-- /page-faq -->
+
+
+  <!-- ══════════════════════════════════════
+       FOOTER (ditampilkan di semua halaman)
+  ══════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <!-- Brand -->
+          <div class="footer-brand">
+            <div class="logo-mark">Δ</div>
+            <div class="footer-brand-name">Bimbel Delta Prima</div>
+            <div class="footer-brand-tagline">"Bimbingan Tepat, Prestasi Hebat"</div>
+            <p>Bimbingan belajar matematika private &amp; semi-private di Surabaya. Melayani SD, SMP, SMA, Olimpiade, UTBK, TKA, dan Mahasiswa.</p>
+            <div class="footer-socials">
+              <a href="https://www.instagram.com/bimbel.deltaprima" target="_blank" class="soc-btn" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://wa.me/6287744736425" target="_blank" class="soc-btn" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="mailto:deltaprima2357@gmail.com" class="soc-btn" title="Email"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+          </div>
+
+          <!-- Navigasi -->
+          <div class="footer-col">
+            <h4>Navigasi</h4>
+            <ul>
+              <li><a href="#home" data-page="home">→ Beranda</a></li>
+              <li><a href="#layanan" data-page="layanan">→ Layanan</a></li>
+              <li><a href="#team" data-page="team">→ Tim Pengajar</a></li>
+              <li><a href="#faq" data-page="faq">→ FAQ</a></li>
+            </ul>
+          </div>
+
+          <!-- Program -->
+          <div class="footer-col">
+            <h4>Program</h4>
+            <ul>
+              <li><a href="#layanan" data-page="layanan">→ Matematika SD</a></li>
+              <li><a href="#layanan" data-page="layanan">→ Matematika SMP</a></li>
+              <li><a href="#layanan" data-page="layanan">→ Matematika SMA</a></li>
+              <li><a href="#layanan" data-page="layanan">→ Olimpiade</a></li>
+              <li><a href="#layanan" data-page="layanan">→ UTBK &amp; TKA</a></li>
+              <li><a href="#layanan" data-page="layanan">→ Mahasiswa</a></li>
+            </ul>
+          </div>
+
+          <!-- Kontak -->
+          <div class="footer-col">
+            <h4>Kontak</h4>
+            <div class="footer-contact-item">
+              <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+              <span>Jl. Pandugo Sari VIII Blok L-26, Penjaringan Sari, Kec. Rungkut, Surabaya 60297</span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="icon"><i class="fa-brands fa-whatsapp"></i></span>
+              <a href="tel:+6287744736425">+62 877-4473-6425</a>
+            </div>
+            <div class="footer-contact-item">
+              <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+              <a href="mailto:deltaprima2357@gmail.com">deltaprima2357@gmail.com</a>
+            </div>
+            <div class="footer-contact-item">
+              <span class="icon"><i class="fa-regular fa-clock"></i></span>
+              <span>Senin–Sabtu, 08.00–20.00 WIB</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© 2025 Bimbingan Belajar Delta Prima. Hak cipta dilindungi.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Kebijakan Privasi</a>
+          <a href="#">Syarat &amp; Ketentuan</a>
+          <a href="https://wa.me/6287744736425" target="_blank">Hubungi Kami</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
